@@ -1,0 +1,34 @@
+{
+  "name": "particle-electron",
+  "version": "1.0.0",
+  "description": "XMLHttpRequest helper functions",
+  "main": "dist/electron.js",
+  "scripts": {
+    "lint": "jshint ./src/electron.js",
+    "minify": "uglifyjs ./dist/electron.js -o ./dist/electron.min.js --screw-ie -c",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParticleJS/electron.git"
+  },
+  "keywords": [
+    "xhr",
+    "xmlhttprequest",
+    "ajax"
+  ],
+  "jshintConfig": {
+    "curly": true,
+    "browser": true,
+    "node": true
+  },
+  "author": "Erik Royall",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/ParticleJS/electron/issues"
+  },
+  "homepage": "https://github.com/ParticleJS/electron#readme",
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "uglify-js": "^2.4.24"
+  }
+}
